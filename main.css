@@ -1,0 +1,255 @@
+ /*
+* Name : Meet  Patel 
+* Student Number :8980814
+*
+*/
+
+body {
+    width: 80%;
+    width: 1080px;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(to top, #b0ff04, #e4e9a7);
+    font-size: 1rem;
+
+    
+}
+
+
+
+header {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 100%;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(to top, #b0ff04,#e4e9a7);
+    
+}
+
+footer {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 1px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: auto;
+    background: linear-gradient(to top, #b0ff04,#e4e9a7);
+    
+
+}
+
+h1,h2{
+    color: rgb(11, 11, 11);
+    font-variant: small-caps;
+position: initial;
+}
+
+footer p {
+    font-size: 19px;
+    color: black;
+    
+
+    
+}
+
+div.Meet{
+    padding: auto;
+    
+    
+    
+}
+main{
+    
+ float: left;
+ width: 100%;
+ padding: 10px;
+ margin-right: 10px;
+}
+
+aside{
+    
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    position:absolute;
+    top: 250px;
+    right: 25px;
+    padding: 0px;
+    margin: 30px;
+
+   
+    
+    background-image: url(images/images\ \(1\).jpg); 
+        background-size: cover;
+        background-position: center;
+
+}
+
+figcaption{
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
+figure{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: medium;
+
+}
+
+ul{
+    list-style: decimal;
+}
+
+aside a:hover { 
+    color: greenyellow;
+    }
+
+.mainimg{
+
+   border: 1px solid black;
+   border-radius: 8px;
+   margin-right: 20px;
+   padding: 0px;
+   width: 150px;
+   height: 200px;
+   float: left;
+
+}
+
+.pics{
+    display: grid;
+
+}
+
+
+nav {
+    background-color: rgb(27, 109, 136); 
+    padding: 10px;
+    align-content:center;
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0.625rem;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 167px; 
+}
+
+
+
+nav ul li a:hover {
+    color: darkorange;
+}
+
+
+th,td,table{
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+
+
+section,h2{
+
+padding: 15px;
+
+
+}
+
+img {
+    filter: grayscale(80%);
+  }
+  .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .images img {
+    flex: 1;
+    width: 90%;
+    height: 300px;
+    border: 4px solid black;
+    clip-path: inset();
+    object-fit: cover;
+  }
+  
+
+
+.vid{
+    width: 500px;
+    height: 350px;
+}
+
+form{
+    width: 500px;
+    
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+ border: 1px solid black;
+ border-radius: 5px;
+ width: 100%;
+ padding: 5px;
+ margin-bottom: 10px;
+
+}
+
+input[type="submit"]{
+    background-color:gray;
+    border: 2px;
+    padding: 0.65rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: sandybrown;
+}
+
+@media  (max-width: 700px) {
+    
+    body {
+        font-size: 3%;
+        padding: 1rem;
+    }
+}
+
+@media  (min-width:1200px) {
+  
+    body {
+        font-size: 1.1rem;
+        padding: 2rem;
+    }
+}
